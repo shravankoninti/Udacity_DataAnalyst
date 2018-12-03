@@ -91,3 +91,35 @@ did not show up.
 * On contrary actually we would expect that patients who have got scholarship should have been all attended the physician but it seems that ~25% of patients did not attend.
 
 * Majority of the visits happend from Jardim Camburi, but we are not sure on why this happend. There might be many reasons like majority of the patient population might be from that place or majority of the physicians are from that location. This is one of the limitations
+
+
+## Project 3 - Analyze_ab_test_results
+
+A/B tests are very commonly performed by data analysts and data scientists. It is important that we get some practice working with the difficulties of these
+
+For this project, I have worked to understand the results of an A/B test run by an e-commerce website. My goal was to work through this  to help the company understand if they should implement the new page, keep the old page, or perhaps run the experiment longer to make their decision.
+
+
+### Inferences
+
+* The probability of an individual converting regardless of the page they receive is 11.96%
+
+* Given that an individual was in the control group, the probability they converted is 12.04%
+
+* Given that an individual was in the treatment group, the probability they converted is 11.88%.
+
+* The probablity users converted in both control and treatment group are almost close or similar to each other and probability of an individual converting regardless of the page they receive. therefore, **there is no evidence that new page leads to more conversions**
+
+#### Interpretations from the Logistic Regression / Logit Model
+
+* From the above Logit Regression Results, we can see that the only intercept's p-value is less than 0.05, which is statistically significant enough for converted rate but other variables are not statistically significant.
+
+* The country a user lives is not statistically significant on the converted rate considering the page the user land in.
+
+* For every unit for new_page decreases, the user getting converted will be 7.0% more likely to happen while holding all other varibles constant.
+
+* The user getting Converted is 1.08 times more likely to happen for UK and new page users than CA and new page users while holding all other varible constant.
+
+* The user getting Converted is 1.04 times more likely to happen for US and new page users than CA and new page users while holding all other varible constant.
+
+
