@@ -93,7 +93,7 @@ did not show up.
 * Majority of the visits happend from Jardim Camburi, but we are not sure on why this happend. There might be many reasons like majority of the patient population might be from that place or majority of the physicians are from that location. This is one of the limitations
 
 
-## Project 3 - Analyze_ab_test_results
+## Project 3 - Analyze_A_B Test Analysis
 
 A/B tests are very commonly performed by data analysts and data scientists. It is important that we get some practice working with the difficulties of these
 
